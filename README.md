@@ -1,8 +1,8 @@
-Spotify Music Recommendation System
+## Spotify Music Recommendation System ##
 
 A machine learning-based project that uses clustering (K-Means) to recommend similar songs based on a user's input. This project leverages Spotify's audio features to find tracks that match the input song's characteristics.
 
-Features
+## Features ##
 
 Uses Spotify audio features such as danceability, energy, tempo, valence, etc.
 
@@ -12,7 +12,7 @@ Recommends tracks based on the cluster of a given song.
 
 Preprocessed dataset of Spotify songs (2010–2020).
 
-Requirements
+## Requirements ##
 
 Python 3.7+
 
@@ -24,7 +24,7 @@ scikit-learn
 
 matplotlib (optional for visualization)
 
-How it Works
+## How it Works  ##
 
 Load and preprocess the dataset.
 
@@ -34,7 +34,7 @@ Apply K-Means clustering to group similar songs.
 
 Given an input song, find its cluster and recommend other songs from the same cluster.
 
-License
+## License ##
 
 This project is open-source and available under the MIT License.
 
